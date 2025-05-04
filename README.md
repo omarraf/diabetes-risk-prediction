@@ -78,7 +78,7 @@ Install dependencies:
 pip install numpy pandas matplotlib seaborn scikit-learn
 ```
 
-##Conclusion
+## Conclusion
 This project demonstrates the application of machine learning for healthcare prediction. The model not only achieves strong performance but also provides interpretable insights that align with known diabetes risk factors. This work lays the foundation for further studies using more complex models or additional health features.
 
 
