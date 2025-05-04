@@ -1,8 +1,8 @@
-# 🩺 Diabetes Risk Prediction Using Logistic Regression
+#  Diabetes Risk Prediction Using Logistic Regression
 
 This project applies a logistic regression model—implemented manually using NumPy—to predict an individual's risk of diabetes based on health and lifestyle indicators. The dataset comes from the CDC's 2015 Behavioral Risk Factor Surveillance System (BRFSS) and is publicly available on the UCI Machine Learning Repository.
 
-## 📌 Project Objective
+## Project Objective
 
 - Predict diabetes risk using selected health indicators
 - Implement logistic regression from scratch using Python (NumPy)
@@ -10,7 +10,7 @@ This project applies a logistic regression model—implemented manually using Nu
 - Evaluate the model using standard classification metrics
 - Demonstrate the practical application of machine learning in healthcare
 
-## 📊 Dataset
+## Dataset
 
 - Source: UCI Machine Learning Repository – CDC BRFSS 2015  
   https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
@@ -34,7 +34,7 @@ Total samples: **9,262**
 - Selected Features:
   - `BMI`, `Age`, `PhysHlth`, `HighBP`, `HighChol`
 
-## 🧠 Model Implementation
+## Model Implementation
 
 - Logistic Regression implemented **from scratch** using NumPy
 - Core components:
@@ -44,7 +44,7 @@ Total samples: **9,262**
 - Trained for 1,000 epochs
 - No use of scikit-learn for model fitting (per course constraints)
 
-## 🧪 Model Evaluation
+## Model Evaluation
 
 | Metric            | Value     |
 |-------------------|-----------|
@@ -55,7 +55,7 @@ Total samples: **9,262**
 
 These results show the model effectively identifies individuals at risk for diabetes, prioritizing **recall** for the positive class to minimize missed diagnoses.
 
-## 🔍 Feature Insights
+## Feature Insights
 
 The model's learned weights revealed the most influential risk factors:
 
@@ -67,7 +67,7 @@ The model's learned weights revealed the most influential risk factors:
 
 
 
-## ✅ Requirements
+## Requirements
 
 - Python 3.9+
 - Libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`, `sklearn`
@@ -78,8 +78,8 @@ Install dependencies:
 pip install numpy pandas matplotlib seaborn scikit-learn
 ```
 
-## 📌 Conclusion
-This project demonstrates the application of logistic regression for healthcare prediction. The model not only achieves strong performance but also provides interpretable insights that align with known diabetes risk factors. This work lays the foundation for further studies using more complex models or additional health features.
+##Conclusion
+This project demonstrates the application of machine learning for healthcare prediction. The model not only achieves strong performance but also provides interpretable insights that align with known diabetes risk factors. This work lays the foundation for further studies using more complex models or additional health features.
 
 
 
