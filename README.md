@@ -65,5 +65,25 @@ The model's learned weights revealed the most influential risk factors:
 4. **PhysHlth (0.06)** – Physical unwellness days
 5. **BMI (0.02)** – Minimal additional contribution (likely overlaps with other indicators)
 
-## 📁 Project Structure
+
+
+## ✅ Requirements
+
+- Python 3.9+
+- Libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`, `sklearn`
+
+Install dependencies:
+
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn
+```
+
+## 📌 Conclusion
+This project demonstrates the application of logistic regression for healthcare prediction. The model not only achieves strong performance but also provides interpretable insights that align with known diabetes risk factors. This work lays the foundation for further studies using more complex models or additional health features.
+
+
+
+
+
+
 
